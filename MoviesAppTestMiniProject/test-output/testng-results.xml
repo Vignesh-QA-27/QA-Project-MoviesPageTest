@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-22T23:15:39 IST" name="Movies Page Test" finished-at="2024-10-22T23:16:24 IST" duration-ms="45410">
+    <groups>
+    </groups>
+    <test started-at="2024-10-22T23:15:39 IST" name="MoviesPage Test" finished-at="2024-10-22T23:16:24 IST" duration-ms="45410">
+      <class name="SearchPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SearchPageTest@4229bb3f]" started-at="2024-10-22T23:15:39 IST" name="setUp" finished-at="2024-10-22T23:15:54 IST" duration-ms="15146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchPgMoviesSearchFunctionality()[pri:1, instance:SearchPageTest@4229bb3f]" started-at="2024-10-22T23:15:54 IST" name="testSearchPgMoviesSearchFunctionality" finished-at="2024-10-22T23:15:57 IST" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchPgMoviesSearchFunctionality -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:SearchPageTest@4229bb3f]" started-at="2024-10-22T23:15:57 IST" name="quitTheBrowser" finished-at="2024-10-22T23:15:58 IST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SearchPageTest@4229bb3f]" started-at="2024-10-22T23:15:58 IST" name="setUp" finished-at="2024-10-22T23:16:05 IST" duration-ms="6377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchFunctionalityWithFailureCase()[pri:2, instance:SearchPageTest@4229bb3f]" started-at="2024-10-22T23:16:05 IST" name="testSearchFunctionalityWithFailureCase" finished-at="2024-10-22T23:16:07 IST" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionalityWithFailureCase -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:SearchPageTest@4229bb3f]" started-at="2024-10-22T23:16:07 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:08 IST" duration-ms="1066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- SearchPageTest -->
+      <class name="MovieDetailsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MovieDetailsPageTest@56cdfb3b]" started-at="2024-10-22T23:15:39 IST" name="setUp" finished-at="2024-10-22T23:15:57 IST" duration-ms="17970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMovieDetailsPgHomePgUi()[pri:1, instance:MovieDetailsPageTest@56cdfb3b]" started-at="2024-10-22T23:15:57 IST" name="testMovieDetailsPgHomePgUi" finished-at="2024-10-22T23:16:06 IST" duration-ms="9087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMovieDetailsPgHomePgUi -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:MovieDetailsPageTest@56cdfb3b]" started-at="2024-10-22T23:16:06 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:09 IST" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- MovieDetailsPageTest -->
+      <class name="LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:15:39 IST" name="setUp" finished-at="2024-10-22T23:15:52 IST" duration-ms="12906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPgUi()[pri:1, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:15:52 IST" name="testLoginPgUi" finished-at="2024-10-22T23:15:54 IST" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPgUi -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:15:54 IST" name="quitTheBrowser" finished-at="2024-10-22T23:15:58 IST" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:15:58 IST" name="setUp" finished-at="2024-10-22T23:16:03 IST" duration-ms="5302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPgWithEmptyInputs()[pri:2, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:03 IST" name="testLoginPgWithEmptyInputs" finished-at="2024-10-22T23:16:05 IST" duration-ms="2029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPgWithEmptyInputs -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:05 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:08 IST" duration-ms="3046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:08 IST" name="setUp" finished-at="2024-10-22T23:16:11 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPgWithEmptyUserName()[pri:3, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:11 IST" name="testLoginPgWithEmptyUserName" finished-at="2024-10-22T23:16:12 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPgWithEmptyUserName -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:12 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:12 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:12 IST" name="setUp" finished-at="2024-10-22T23:16:15 IST" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPgWithEmptyPassword()[pri:4, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:15 IST" name="testLoginPgWithEmptyPassword" finished-at="2024-10-22T23:16:16 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPgWithEmptyPassword -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:16 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:17 IST" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:17 IST" name="setUp" finished-at="2024-10-22T23:16:19 IST" duration-ms="2700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPgWithInvalidCredentials()[pri:5, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:19 IST" name="testLoginPgWithInvalidCredentials" finished-at="2024-10-22T23:16:20 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPgWithInvalidCredentials -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:20 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:21 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:21 IST" name="setUp" finished-at="2024-10-22T23:16:23 IST" duration-ms="2453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPgWithValidCredentials()[pri:6, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:23 IST" name="testLoginPgWithValidCredentials" finished-at="2024-10-22T23:16:24 IST" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPgWithValidCredentials -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:LoginPageTest@702b8b12]" started-at="2024-10-22T23:16:24 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:24 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- LoginPageTest -->
+      <class name="PopularPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PopularPageTest@7fee8714]" started-at="2024-10-22T23:15:39 IST" name="setUp" finished-at="2024-10-22T23:15:52 IST" duration-ms="12420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPopularPageUi()[pri:1, instance:PopularPageTest@7fee8714]" started-at="2024-10-22T23:15:52 IST" name="testPopularPageUi" finished-at="2024-10-22T23:15:54 IST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopularPageUi -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:PopularPageTest@7fee8714]" started-at="2024-10-22T23:15:54 IST" name="quitTheBrowser" finished-at="2024-10-22T23:15:58 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- PopularPageTest -->
+      <class name="AccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AccountPageTest@2b91004a]" started-at="2024-10-22T23:15:39 IST" name="setUp" finished-at="2024-10-22T23:15:52 IST" duration-ms="12399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAccountPgUi()[pri:1, instance:AccountPageTest@2b91004a]" started-at="2024-10-22T23:15:52 IST" name="testAccountPgUi" finished-at="2024-10-22T23:15:56 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountPgUi -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:AccountPageTest@2b91004a]" started-at="2024-10-22T23:15:56 IST" name="quitTheBrowser" finished-at="2024-10-22T23:15:58 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:AccountPageTest@2b91004a]" started-at="2024-10-22T23:15:58 IST" name="setUp" finished-at="2024-10-22T23:16:05 IST" duration-ms="6636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogOutFunctionality()[pri:2, instance:AccountPageTest@2b91004a]" started-at="2024-10-22T23:16:05 IST" name="testLogOutFunctionality" finished-at="2024-10-22T23:16:07 IST" duration-ms="2077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOutFunctionality -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:AccountPageTest@2b91004a]" started-at="2024-10-22T23:16:07 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:08 IST" duration-ms="1607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- AccountPageTest -->
+      <class name="HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HomePageTest@f736069]" started-at="2024-10-22T23:15:39 IST" name="setUp" finished-at="2024-10-22T23:15:50 IST" duration-ms="11052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTheHomePg()[pri:1, instance:HomePageTest@f736069]" started-at="2024-10-22T23:15:50 IST" name="testTheHomePg" finished-at="2024-10-22T23:15:54 IST" duration-ms="3896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTheHomePg -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:HomePageTest@f736069]" started-at="2024-10-22T23:15:54 IST" name="quitTheBrowser" finished-at="2024-10-22T23:15:57 IST" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- HomePageTest -->
+      <class name="HeaderSectionPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HeaderSectionPageTest@6da21078]" started-at="2024-10-22T23:15:39 IST" name="setUp" finished-at="2024-10-22T23:15:54 IST" duration-ms="14857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHeaderSectionUi()[pri:1, instance:HeaderSectionPageTest@6da21078]" started-at="2024-10-22T23:15:54 IST" name="testHeaderSectionUi" finished-at="2024-10-22T23:15:56 IST" duration-ms="1694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderSectionUi -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:HeaderSectionPageTest@6da21078]" started-at="2024-10-22T23:15:56 IST" name="quitTheBrowser" finished-at="2024-10-22T23:15:58 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:HeaderSectionPageTest@6da21078]" started-at="2024-10-22T23:15:58 IST" name="setUp" finished-at="2024-10-22T23:16:04 IST" duration-ms="5500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHeaderSectionFunctionalities()[pri:2, instance:HeaderSectionPageTest@6da21078]" started-at="2024-10-22T23:16:04 IST" name="testHeaderSectionFunctionalities" finished-at="2024-10-22T23:16:05 IST" duration-ms="1812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHeaderSectionFunctionalities -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:HeaderSectionPageTest@6da21078]" started-at="2024-10-22T23:16:05 IST" name="quitTheBrowser" finished-at="2024-10-22T23:16:09 IST" duration-ms="3741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- HeaderSectionPageTest -->
+    </test> <!-- MoviesPage Test -->
+  </suite> <!-- Movies Page Test -->
+</testng-results>
